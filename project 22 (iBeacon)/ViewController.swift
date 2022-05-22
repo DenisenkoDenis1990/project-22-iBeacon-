@@ -51,7 +51,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.distanceReading.text = "RIGHT HERE"
             
          default:
-            self.view.backgroundColor = .gray
+            self.view.backgroundColor = .black
             self.distanceReading.text = "UNKNOWN"
             
         }
